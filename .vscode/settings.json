@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/fb16e96d-90b4-4516-aa1f-03df0f9b8134/AppServices/subscriptions/fb16e96d-90b4-4516-aa1f-03df0f9b8134/resourceGroups/MOPP/providers/Microsoft.Web/sites/MOPP-gov",
+    "appService.deploySubpath": "."
+}

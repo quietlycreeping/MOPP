@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'MOPP-gov'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_20BC32251DC04972A719B3757BBCEB14 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B04F7E960D2A41BDAAFE68B3ED194D4A }}
           package: .

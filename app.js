@@ -1,3 +1,6 @@
+//imports
+const port = 8080;
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -39,3 +42,6 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+//listen on port
+app.listen(port, () => console.info(`Listening on port ${port}`))

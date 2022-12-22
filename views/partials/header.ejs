@@ -1,24 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <title>MOPP</title>
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
 
-   <!-- CSS link (loading Semantic UI from a CDN) -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <style>
-     body { padding:50px; }
-   </style>
-</head>
-<body class="container">
+    <!-- Logo & Name-->
+    <a class="navbar-brand" href="../index.ejs">
+      <img src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+      Ministry of Powered Persons
+    </a>
 
-<header>
-   <div class="ui inverted menu">
-       <a class="item" href="/">
-         Home
-       </a>
-       <a class="item" href="/magic">
-         Magic
-       </a>
-   </div>
-</header>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!--- Dropdown Links--->
+    <div class="collapse navbar-collapse justify-content-end mr-auto text-center" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+
+        <!------Archive Links------------------------------>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Archive
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../World/team.ejs">The Team</a></li>
+            <li><a class="dropdown-item" href="../World/calendar.ejs">Calendar</a></li>
+            <li><a class="dropdown-item" href="../World/people.ejs">People</a></li>
+            <li><a class="dropdown-item" href="../World/map.ejs">Map</a></li>
+          </ul>
+        </li>
+
+        <!-----Administrative Links------------------------------------>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Administrative
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../OOC/rules.ejs">Rules</a></li>
+            <li><a class="dropdown-item" href="../OOC/consent.ejs">Safety Policy</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>  
+
+  </div>
+</nav>

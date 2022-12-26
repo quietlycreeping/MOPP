@@ -10,7 +10,7 @@ app.set('view engine', 'ejs')
 app.get('/', (req, res) => {
     res.render('pages/index')
 })
-//world pages
+//world pages----
 app.get('/calendar', (req, res) => {
   res.render('pages/World/calendar')
 })
@@ -23,12 +23,15 @@ app.get('/citizens', (req, res) => {
 app.get('/the-team', (req, res) => {
   res.render('pages/World/team')
 })
-//ooc pages
+//ooc pages-----
 app.get('/safety-policies', (req, res) => {
   res.render('pages/OOC/consent')
 })
 app.get('/ruleset', (req, res) => {
   res.render('pages/OOC/rules')
+})
+app.get('/about-us', (req, res) => {
+  res.render('pages/OOC/about')
 })
 //===================================================
 

@@ -6,6 +6,7 @@ const port = 8080
 app.set('view engine', 'ejs')
 
 app.use(express.static("public/stylesheets"));
+app.use(express.static("public/images"));
 
 //===================================================
 //RENDER PAGES--------------------

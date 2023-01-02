@@ -1,7 +1,44 @@
-h1 {
-  color: brown;
-  }
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-.navbar.navbar-default{
-    background:aqua;
-  }
+nav
+{
+  background-color: #1B4079;
+}
+
+/* MOPP */
+.navbar-brand 
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 120%;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.navbar-brand:hover
+{
+  color: grey;
+}
+
+/* Archive and Admistrative Dropdown*/
+a.nav-link.dropdown-toggle 
+{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 80%;
+}
+
+/* Dropdown Text*/
+a.dropdown-item
+{
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 75%;
+  background-color: #1B4079;
+}
+
+ul.dropdown-menu.show
+{
+  background-color: #1B4079;
+}

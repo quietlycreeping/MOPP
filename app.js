@@ -30,8 +30,11 @@ app.get('/the-team', (req, res) => {
 app.get('/safety-policies', (req, res) => {
   res.render('pages/OOC/consent')
 })
-app.get('/ruleset', (req, res) => {
-  res.render('pages/OOC/rules')
+app.get('/rules-moves', (req, res) => {
+  res.render('pages/OOC/rules-moves')
+})
+app.get('/rules-labels', (req, res) => {
+  res.render('pages/OOC/rules-labels')
 })
 app.get('/about-us', (req, res) => {
   res.render('pages/OOC/about')

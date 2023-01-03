@@ -4,16 +4,29 @@
 
 h1{
     font-family: "Bangers", sans-serif;
-    color: #EE2E31;
+    font-size: 45px;
+}
+
+h2{
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-weight: 300; 
+    font-size: 18px; 
 }
 
 p{
     font-family: "Prompt", sans-serif;
-    font-weight: 300;
     font-size: small;
 }
 
+/*Header Buttons (___ moves)*/
+button.btn
+{
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-weight: 300; 
+    font-size: 20px; 
+}
 
+/*Subheader Buttons (directly engage...)*/
 button.btn.btn-link{
     font-family: "Prompt", sans-serif;
     font-weight: 300;
@@ -22,6 +35,18 @@ button.btn.btn-link{
 
 }
 
+/*Buttons body*/
+div.card-body{
+    font-family: "Prompt", sans-serif;
+    font-size: small;
+    padding: 10px;
+
+}
+
 ul{
     list-style-type: square;
+}
+
+hr{
+    border: 1px solid lightgray; 
 }

@@ -1,13 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat'); /*Heading*/
+@import url('https://fonts.googleapis.com/css?family=Raleway'); /*Subheading*/
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans'); /*body*/
 
-h1
-{
+h1{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
 }
 
-p
-{
+p{
     font-family: "Nunito+Sans", sans-serif;
+}
+
+a{
+    color:black
+}
+
+a:hover{
+    color:black
 }

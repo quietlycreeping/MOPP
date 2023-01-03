@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers'); /*Heading*/
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed'); /*Subheading*/
+@import url('https://fonts.googleapis.com/css?family=Prompt'); /*body*/
+
+h1{
+    font-family: "Bangers", sans-serif;
+    color: #EE2E31;
+}
+
+p{
+    font-family: "Prompt", sans-serif;
+    font-weight: 300;
+    font-size: small;
+}
+
+
+button.btn.btn-link{
+    font-family: "Prompt", sans-serif;
+    font-weight: 300;
+    font-size: medium;
+    color: black;
+
+}
+
+ul{
+    list-style-type: square;
+}

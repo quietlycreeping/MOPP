@@ -38,6 +38,14 @@ a.dropdown-item
   background-color: #1B4079;
 }
 
+a.nav-link.disabled
+{
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 75%;
+  background-color: #1B4079;
+}
+
 ul.dropdown-menu.show
 {
   background-color: #1B4079;

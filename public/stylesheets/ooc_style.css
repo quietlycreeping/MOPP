@@ -13,6 +13,14 @@ h2{
     font-size: 18px; 
 }
 
+
+h3{
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    color: #EE2E31;
+    font-weight: 500; 
+    font-size: 22px; 
+}
+
 p{
     font-family: "Prompt", sans-serif;
     font-size: small;

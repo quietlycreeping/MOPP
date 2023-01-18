@@ -2,19 +2,29 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway'); /*Subheading*/
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans'); /*body*/
 
-h1{
+#footerh1{
     font-family: "Montserrat", sans-serif;
-    font-weight: 700;
+    font-size:larger;
 }
 
-p{
+#footera
+{
+    color: white;
+}
+
+#footerh2{
+    font-family: "Raleway", sans-serif;
+    font-size: large;
+}
+
+#footeerp{
     font-family: "Nunito Sans", sans-serif;
+    font-size: small;
 }
 
-a{
-    color:black
+#footerul{
+    font-family: "Nunito Sans", sans-serif;
+    list-style-type: square;
+    font-size: small;
 }
 
-a:hover{
-    color:black
-}

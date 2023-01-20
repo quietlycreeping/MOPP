@@ -14,7 +14,7 @@
 
 #footerh2{
     font-family: "Raleway", sans-serif;
-    font-size: large;
+    font-size: larger;
 }
 
 #footeerp{
@@ -25,7 +25,7 @@
 #footerul{
     font-family: "Nunito Sans", sans-serif;
     list-style-type: square;
-    font-size: small;
+    font-size: 14px;
     padding-left: 25px;
 }
 

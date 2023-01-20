@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway'); /*Subheading*/
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans'); /*body*/
 
 nav
 {
@@ -11,7 +13,7 @@ nav
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: white;
-    font-size: 120%;
+    font-size:x-large;
     margin-top: -5px;
     margin-bottom: -5px;
 }
@@ -24,25 +26,25 @@ nav
 /* Archive and Admistrative Dropdown*/
 a.nav-link.dropdown-toggle 
 {
-    font-family: "Montserrat", sans-serif;
-    color: white;
-    font-size: 80%;
+  font-family: "Raleway", sans-serif;
+  font-size: large;
+  color: white;
 }
 
 /* Dropdown Text*/
 a.dropdown-item
 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   color: white;
-  font-size: 75%;
+  font-size: 14px;
   background-color: #1B4079;
 }
 
 a.nav-link.disabled
 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   color: white;
-  font-size: 75%;
+  font-size: 14px;
   background-color: #1B4079;
 }
 

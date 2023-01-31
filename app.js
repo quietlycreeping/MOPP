@@ -38,6 +38,9 @@ app.get('/rules-moves', (req, res) => {
 app.get('/rules-labels', (req, res) => {
   res.render('pages/OOC/rules-labels')})
 
+app.get('/rules-playbook', (req, res) => {
+  res.render('pages/OOC/rules-playbook')})
+
   app.get('/about-us', (req, res) => {
   res.render('pages/OOC/about')})
 //===================================================

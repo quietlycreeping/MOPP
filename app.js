@@ -1,6 +1,8 @@
 //imports
 const express = require('express')
 const app = express()
+const mysql = require('mysql');
+const fs = require('fs');
 const port = 8080
 
 app.set('view engine', 'ejs')
@@ -44,6 +46,29 @@ app.get('/rules-playbook', (req, res) => {
   app.get('/about-us', (req, res) => {
   res.render('pages/OOC/about')})
 //===================================================
+//database
+const data_con = new mysql.createConnection({
+  host: 'mopp.mysql.database.azure.com',
+  user: 'mopp_admin',
+  password: 'mo@Tunnel4',
+  database: 'MOPP',
+  port: 3306,
+  ssl: {ca: fs.readFileSync("DigiCertGlobalRootCA.crt.pem")}
+});
 
+data_con.connect(
+    function (err) { 
+    if (err) { 
+        console.log("!!! Cannot connect !!! Error:");
+        throw err;
+    }
+    else
+    {
+        console.log("Database connection established.");
+    }
+});
+
+//===================================================
 //listen on port
 app.listen(port, () => console.info(`Listening on port ${port}`))
+

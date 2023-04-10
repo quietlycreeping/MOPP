@@ -45,6 +45,10 @@ app.get('/rules-playbook', (req, res) => {
 
   app.get('/about-us', (req, res) => {
   res.render('pages/OOC/about')})
+
+//Admin page-----
+app.get('/admin', (req, res) => {
+  res.render('pages/admin')})
 //===================================================
 //database
 const data_con = new mysql.createConnection({
